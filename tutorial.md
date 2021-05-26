@@ -13,21 +13,27 @@ By the end of this tutorial, you will understand how to
 
 Let's get started!
 
-## Run the sample
+## Step 1: Begin
 
-This tutorial only has one step: run the sample!
+Start by making a change to the code.
 
-1. Write yourself a nice message by replacing the text on line 14 in <walkthrough-editor-select-line filePath="./src/index.js" startLine="13" startCharacterOffset="11" endLine="13" endCharacterOffset="26">src/index.js</walkthrough-editor-select-line>.
+1. Write a new message by replacing the text on line 14 in <walkthrough-editor-select-line filePath="./src/index.js" startLine="13" startCharacterOffset="11" endLine="13" endCharacterOffset="26">src/index.js</walkthrough-editor-select-line>.
 
 2. Click the <walkthrough-editor-spotlight spotlightId="cloud-code-status-bar">Cloud Code status bar</walkthrough-editor-spotlight>. Look at all those commands!
 
-3. Select <walkthrough-editor-spotlight spotlightId="cloud-code-run-on-k8s">Run on Kubernetes</walkthrough-editor-spotlight>
+Next, let's run this app.
 
-4. You can manage the status of your minikube cluster using the <walkthrough-editor-spotlight spotlightId="minikube-status-bar">minikube status bar</walkthrough-editor-spotlight>
 
-5. Monitor your app's deployment in the <walkthrough-editor-spotlight spotlightId="output">Output</walkthrough-editor-spotlight>.
+## Step 2: The Sequel to Step 1
 
-6. Once your app is deployed, click on the <walkthrough-spotlight-pointer spotlightId="devshell-web-preview-button" target="cloudshell">Web Preview button</walkthrough-spotlight-pointer> in the upper right of the editor window.
+Let's run your app locally on **minikube**.
+
+1. Select <walkthrough-editor-spotlight spotlightId="cloud-code-run-on-k8s">Run on Kubernetes</walkthrough-editor-spotlight>
+
+2. Monitor your app's deployment in the <walkthrough-editor-spotlight spotlightId="output">Output</walkthrough-editor-spotlight>.
+- You can manage the status of your minikube cluster using the <walkthrough-editor-spotlight spotlightId="minikube-status-bar">minikube status bar</walkthrough-editor-spotlight>
+
+3. Once your app is deployed, click on the <walkthrough-spotlight-pointer spotlightId="devshell-web-preview-button" target="cloudshell">Web Preview button</walkthrough-spotlight-pointer> in the upper right of the editor window.
 
 
 ## Congratulations
