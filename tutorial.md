@@ -46,5 +46,5 @@ You did it!
 
 Use 
 ```bash
-gcloud projects delete {{project-id}}
+gcloud projects delete {{PROJECT_ID}}
 ```
