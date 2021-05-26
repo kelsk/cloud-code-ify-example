@@ -12,6 +12,11 @@ deploy:
   kubectl:
     manifests:
     - kubernetes-manifests/**
+portForward:
+  - resourceName: nodejs-hello-world
+    resourceType: Deployment
+    port: 5050
+    localPort: 8080
 profiles:
 - name: cloudbuild
   build:
